@@ -5,8 +5,8 @@ then
 elif [ $OPERATION == "Subtraction" ]
 then
 	echo "INFO :: Subtraction"
-	echo $((FIRST_NUMBER-SECOND_NUMBER))
 	[ $FIRST_NUMBER -lt $SECOND_NUMBER ] && echo "WARN :: Subtrahend greater than minuend : Difference is negative"
+	echo $((FIRST_NUMBER-SECOND_NUMBER))
 elif [ $OPERATION == "Multiplication" ]
 then
 	echo "INFO :: Multiplication"
