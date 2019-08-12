@@ -10,7 +10,7 @@ then
 elif [ $OPERATION == "Multiplication" ]
 then
 	echo "INFO :: Multiplication"
-	echo $((FISRT_NUMBER*SECOND_NUMBER))
+	echo $((FIRST_NUMBER*SECOND_NUMBER))
 elif [ $OPERATION == "Division" ]
 then
 	echo "INFO :: Division"
