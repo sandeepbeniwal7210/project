@@ -1,10 +1,4 @@
-cat host.txt | while read output
+for i in 35.153.184.21 12.129.231.10
 do
-	ping -c1 -t1 "$ouput" > /dev/null 2>&1
-	if [ $? -eq 0 ]
-	then
-		echo "$output is up"
-	else
-		echo "$output is down"
-	fi
+	ping -c 1 $i
 done
