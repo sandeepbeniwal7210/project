@@ -1,11 +1,11 @@
 #read N
-if [ $NUMBER -gt 10 ]
+if [ $NUMBER -gt 20 ]
 then
 	echo $NUMBER  is greater
-elif [ $NUMBER -lt 10 ]
+elif [ $NUMBER -lt 20 ]
 then
 	echo $NUMBER is lower
-elif [ $NUMBER -eq 10 ] 
+elif [ $NUMBER -eq 20 ] 
 then
 	echo $NUMBER is equal 
 else
