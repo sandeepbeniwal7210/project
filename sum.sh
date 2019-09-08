@@ -1,4 +1,6 @@
 #read FIRST_NUMBER
 #read SECOND_NUMBER
+read A
+read B
 SUM=$((FIRST_NUMBER+SECOND_NUMBER))
 echo "The sum of $FIRST_NUMBER and $SECOND_NUMBER is $SUM"
